@@ -1,7 +1,10 @@
-import os
+import cv2 as cv
 
-list1 = ["dirA", "dirB", "dirC", "file.py"]
+img = cv.imread("face_data/4.jpg")
+cv.imshow("img", img)
 
-path = os.path.join(*list1)
+print(img.shape)
 
-print(path)
+cv.waitKey(0)
+
+cv.destroyAllWindows()
