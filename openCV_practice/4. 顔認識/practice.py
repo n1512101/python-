@@ -1,10 +1,3 @@
-import cv2 as cv
+import cv2
 
-img = cv.imread("face_data/4.jpg")
-cv.imshow("img", img)
-
-print(img.shape)
-
-cv.waitKey(0)
-
-cv.destroyAllWindows()
+print(cv2.__version__)
