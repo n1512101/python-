@@ -1,0 +1,2 @@
+name	age	score
+cmm	20	98

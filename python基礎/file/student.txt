@@ -1,0 +1,17 @@
+[
+    {
+        "name": "ysj",
+        "age": 18,
+        "score": 90
+    },
+    {
+        "name": "cmm",
+        "age": 21,
+        "score": 99
+    },
+    {
+        "name": "zyy",
+        "age": 19,
+        "score": 89
+    }
+]
